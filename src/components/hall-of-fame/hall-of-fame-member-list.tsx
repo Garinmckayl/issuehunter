@@ -18,15 +18,17 @@ const Grid = styled.div`
   display: flex;
   flex-wrap: wrap;
   margin: -2rem 0 0 -2rem;
+  align-items: center;
+  justify-content: center;
   > div {
-    flex: 0 0 50%;
-    padding: 2em 0 0 2em;
+    flex: 0 0 70%;
+    padding: 0 0 0 2em;
     display: flex;
   }
   @media (max-width: 550px) {
-    flex-direction: column;
+    // flex-direction: column;
     > div {
-      flex: 0 0 auto;
+      flex: 0 0 70%;
     }
   }
 `

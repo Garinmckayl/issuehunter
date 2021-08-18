@@ -2,7 +2,7 @@ import { createContainer } from 'unstated-next'
 
 function useStaticContent() {
   return {
-    projectName: 'Best of JS',
+    projectName: 'Issue Hunter',
     repoURL: 'https://github.com/bestofjs/bestofjs-webui',
     risingStarsURL: 'https://risingstars.js.org',
     sponsorURL: `https://github.com/sponsors/michaelrambeau`,

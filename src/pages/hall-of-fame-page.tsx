@@ -13,7 +13,7 @@ const HallOfFamePage = () => {
   return (
     <MainContent>
       <PageHeader title="JavaScript Hall of Fame" />
-      <div style={{ marginBottom: '2rem' }}>
+      <div style={{ marginBottom: '4rem' }}>
         Here are some of the greatest developers, authors and speakers of the
         JavaScript community.
         <br />

@@ -38,9 +38,6 @@ export const Footer = () => {
               <br />
               <br />
               <div className="v-center">
-                <a href={repoURL} className="v-center">
-                  <GoMarkGithub fontSize="32px" />
-                </a>
                 <span className="ml-2">v{version}</span>
               </div>
             </div>
@@ -55,39 +52,12 @@ export const Footer = () => {
                     <DirectLink to="/tags">Tags</DirectLink>
                     The +180 tags manually picked to classify all projects
                   </ListItem>
-                  <ListItem>
-                    <DirectLink to="/hall-of-fame">Hall of Fame</DirectLink>
-                    Some of the most influent members of the community
-                  </ListItem>
-                  <ListItem>
-                    <DirectLink to="/timeline">Timeline</DirectLink>
-                    2006 - 2020 in 20 projects, a short story from jQuery to
-                    Rome
-                  </ListItem>
-                  <ListItem>
-                    <DirectLink to="/about">About</DirectLink>
-                    Why do we track the best of JavaScript since 2015
-                  </ListItem>
                 </List>
               </LinkGroup>
             </div>
             <div>
               <LinkGroup title="RELATED PROJECTS">
                 <List>
-                  <ListItem>
-                    <ListItemLink href={risingStarsURL}>
-                      JavaScript Rising Stars
-                      <ExternalLinkIcon />
-                    </ListItemLink>
-                    <p>Our annual round-up about the JavaScript landscape</p>
-                    <a href={risingStarsURL}>
-                      <img
-                        src="https://risingstars.js.org/img/2020/en/rising-stars.png"
-                        width="70%"
-                        alt="Rising Stars"
-                      />
-                    </a>
-                  </ListItem>
                   <ListItem>
                     <ListItemLink href={stateOfJSURL}>
                       State of JS
@@ -108,17 +78,13 @@ export const Footer = () => {
               {fromNow(lastUpdate)} (at {template.render(lastUpdate)}).
             </p>
           )}
-          <p>
-            <i>{projectName}</i> is a project by{' '}
-            <a href="https://michaelrambeau.com">Michael Rambeau</a>, made in
-            Osaka, Japan.
-          </p>
-          <Partner>
+          <i>{projectName}</i>
+          {/* <Partner>
             <span>Powered by</span>
             <a href="https://vercel.com?utm_source=bestofjs">
               <img width="80" src="/svg/vercel.svg" alt="Vercel" />
             </a>
-          </Partner>
+          </Partner> */}
         </Section>
       </div>
     </StyledFooter>
@@ -129,7 +95,7 @@ const breakPointColumns = 800
 
 const StyledFooter = styled.footer`
   margin-top: 4rem;
-  background-color: #541600;
+  background-color: #1e9071;
   color: hsla(0, 0%, 100%, 0.7);
   .container {
     max-width: 1100px;
@@ -184,13 +150,13 @@ const Separator = styled.hr`
   border-color: rgba(255, 255, 255, 0.3);
 `
 
-const Partner = styled.p`
-  display: flex;
-  justify-content: center;
-  span {
-    margin-right: 4px;
-  }
-`
+// const Partner = styled.p`
+//   display: flex;
+//   justify-content: center;
+//   span {
+//     margin-right: 4px;
+//   }
+// `
 
 const LinkGroup = ({ title, children }) => {
   return (
