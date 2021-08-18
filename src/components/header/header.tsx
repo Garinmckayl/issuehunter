@@ -65,7 +65,13 @@ export const Header = props => {
                 <NavLink to="/projects">Projects</NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
+                <NavLink to="/explore">Explore</NavLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
                 <NavLink to="/tags">Tags</NavLink>
+              </NavigationMenuItem>
+              <NavigationMenuItem>
+                <NavLink to="/leaderboard">Leaderboard</NavLink>
               </NavigationMenuItem>
               <NavigationMenuItem>
                 <NavigationDropdownMenu />
