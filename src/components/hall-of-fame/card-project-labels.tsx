@@ -28,11 +28,12 @@ const Container = styled.div`
   }
 `
 const bestofjsOrange = '#e65100'
+const issueHuntGreen = '#2ed4c0'
 const bestofjsPurple = '#9E0142'
 
 const ProjectLink = styled(Link)`
   display: inline-block;
-  border: ${bestofjsOrange} solid 1px;
+  border: ${issueHuntGreen} solid 1px;
   padding: 0.5em;
   border-radius: 4px;
   font-size: 14px;

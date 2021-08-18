@@ -36,7 +36,7 @@ export const Button = styled.button<ButtonProps>`
 export const ButtonLink = Button.withComponent('a')
 
 const PrimaryButtonMixin = css`
-  background-color: var(--bestofjsOrange);
+  background-color: var(--issueHuntGreen);
   color: white;
   border-color: var(--boxBorderColor);
   &:hover {
