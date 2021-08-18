@@ -150,8 +150,8 @@ const NavigationMenuItem = styled.div`
     font-family: var(--headingFontFamily);
   }
   a.active {
-    color: #bb4201;
-    border-bottom-color: #bb4201;
+    color: #2ed4c0;
+    border-bottom-color: #2ed4c0;
   }
   a.icon {
     color: var(--textMutedColor);

@@ -24,9 +24,7 @@ export const Home = props => {
 
   return (
     <MainContent>
-      <h1 style={{ margin: '0 0 1rem' }}>
-        The sexy of JavaScript, HTML and CSS
-      </h1>
+      <h1 style={{ margin: '0 0 1rem' }}>Fix Issues Get Paid</h1>
       <Section>
         <Row>
           <MainColumn>

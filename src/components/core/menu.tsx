@@ -77,7 +77,7 @@ const disabledStyles = props => css`
   opacity: 0.5;
 `
 const activeStyles = props => css`
-  background-color: var(--bestofjsOrange);
+  background-color: var(--issueHuntGreen);
   color: white;
 `
 const normalStyles = props => css`

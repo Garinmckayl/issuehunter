@@ -97,8 +97,8 @@ export const SearchBox = () => {
 }
 
 const Container = styled.div`
-  background-color: var(--bestofjsOrange);
-  background: linear-gradient(135deg, #ed8518, #e75f16, #b94100);
+  background-color: var(--issueHuntGreen);
+  // background: linear-gradient(135deg, #ed8518, #e75f16, #b94100);
   padding: 1rem 0;
   font-family: var(--buttonFontFamily);
 `
