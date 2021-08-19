@@ -48,13 +48,8 @@ export const Header = props => {
         <Row>
           <Col>
             <LinkLogo to={'/'}>
-              <NavLink to="/" exact>
-                IssueHunter
-              </NavLink>
-              {/*              <img src="/svg/bestofjs.svg" width="130" alt="Best of JS" />
-               */}{' '}
+              <img src="/svg/issuehunter.svg" width="130" alt="Best of JS" />{' '}
             </LinkLogo>
-
             <NavigationMenu className="desktop-only">
               <NavigationMenuItem>
                 <NavLink to="/" exact>
